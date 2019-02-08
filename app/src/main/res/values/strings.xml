@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">My Application</string>
+
+    <string name="value_zero">0</string>
+    <string name="value_one">1</string>
+    <string name="value_two">2</string>
+    <string name="value_three">3</string>
+    <string name="value_four">4</string>
+    <string name="value_five">5</string>
+    <string name="value_six">6</string>
+    <string name="value_seven">7</string>
+    <string name="value_eight">8</string>
+    <string name="value_nine">9</string>
+
+    <string name="operation_add">add</string>
+    <string name="operation_subtract">subtract</string>
+    <string name="operation_multiply">multiply</string>
+    <string name="operation_divide">divide</string>
+</resources>
