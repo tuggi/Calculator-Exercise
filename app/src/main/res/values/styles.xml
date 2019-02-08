@@ -11,16 +11,19 @@
     <style name="NumberButton" parent="Widget.AppCompat.Button.Colored">
         <item name="android:textColor">@color/colorWhite</item>
         <item name="colorButtonNormal">@color/colorDarkGray</item>
+        <item name="android:textSize">35dp</item>
     </style>
 
     <style name="OperationButton" parent="Widget.AppCompat.Button.Colored">
         <item name="android:textColor">@color/colorWhite</item>
         <item name="colorButtonNormal">@color/colorLightGray</item>
+        <item name="android:textSize">35dp</item>
     </style>
 
     <style name="EqualButton" parent="Widget.AppCompat.Button.Colored">
         <item name="android:textColor">@color/colorWhite</item>
         <item name="colorButtonNormal">@color/colorGrayAccent</item>
+        <item name="android:textSize">40dp</item>
     </style>
 
 </resources>

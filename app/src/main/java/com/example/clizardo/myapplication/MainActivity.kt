@@ -3,6 +3,7 @@ package com.example.clizardo.myapplication
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
+import android.widget.Toast
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
@@ -17,7 +18,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
     }
 
-    public fun displayNumber(view: View){
+    fun displayNumber(view: View){
 //        Toast.makeText(this, calculatorField.text, Toast.LENGTH_SHORT).show()
         if(calculatorField.text == "0"){
             calculatorField.setText("")
@@ -27,16 +28,16 @@ class MainActivity : AppCompatActivity() {
         }
     }
 
-    public fun clear(view: View){
+    fun clear(view: View){
         calculatorField.setText("0")
-//        Toast.makeText(this, calculatorField.text, Toast.LENGTH_SHORT).show()
+        Toast.makeText(this, view.toString(), Toast.LENGTH_SHORT).show()
     }
 
-    public fun getOperation():String ?{
+    fun getOperation():String ?{
         return this.operation
     }
 
-    public fun compute(){
+    fun compute(){
         when(this.getOperation()){
             "add" -> this.answer = this.valueOne + this.valueTwo
             "subtract" -> this.answer = this.valueOne - this.valueTwo

@@ -11,9 +11,12 @@
     <string name="value_seven">7</string>
     <string name="value_eight">8</string>
     <string name="value_nine">9</string>
+    <string name="value_point">.</string>
 
-    <string name="operation_add">add</string>
-    <string name="operation_subtract">subtract</string>
-    <string name="operation_multiply">multiply</string>
-    <string name="operation_divide">divide</string>
+    <string name="operation_add">+</string>
+    <string name="operation_subtract">−</string>
+    <string name="operation_multiply">×</string>
+    <string name="operation_divide">÷</string>
+    <string name="operation_equal">=</string>
+    <string name="operation_clear">c</string>
 </resources>

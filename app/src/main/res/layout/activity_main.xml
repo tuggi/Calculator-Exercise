@@ -39,6 +39,7 @@
                     android:layout_weight="1"
                     android:layout_width="0dp"
                     android:theme="@style/NumberButton"
+                    android:background="@drawable/number_button"
                     android:layout_height="match_parent" android:id="@+id/button7"/>
 
                 <Button
@@ -48,6 +49,7 @@
                     android:layout_weight="1"
                     android:layout_width="0dp"
                     android:theme="@style/NumberButton"
+                    android:background="@drawable/number_button"
                     android:layout_height="match_parent" android:id="@+id/button8"/>
 
                 <Button
@@ -57,14 +59,16 @@
                     android:layout_weight="1"
                     android:layout_width="0dp"
                     android:theme="@style/NumberButton"
+                    android:background="@drawable/number_button"
                     android:layout_height="match_parent" android:id="@+id/button9"/>
 
                 <Button
                     android:onClick="clear"
-                    android:text="clear"
+                    android:text="@string/operation_clear"
                     android:layout_weight="1"
                     android:layout_width="0dp"
                     android:theme="@style/OperationButton"
+                    android:background="@drawable/operation_button"
                     android:layout_height="match_parent" android:id="@+id/buttonClear"/>
 
             </TableRow>
@@ -79,6 +83,7 @@
                     android:layout_weight="1"
                     android:layout_width="0dp"
                     android:theme="@style/NumberButton"
+                    android:background="@drawable/number_button"
                     android:layout_height="match_parent" android:id="@+id/button4"/>
 
                 <Button
@@ -88,6 +93,7 @@
                     android:layout_weight="1"
                     android:layout_width="0dp"
                     android:theme="@style/NumberButton"
+                    android:background="@drawable/number_button"
                     android:layout_height="match_parent" android:id="@+id/button5"/>
 
                 <Button
@@ -97,6 +103,7 @@
                     android:layout_weight="1"
                     android:layout_width="0dp"
                     android:theme="@style/NumberButton"
+                    android:background="@drawable/number_button"
                     android:layout_height="match_parent" android:id="@+id/button6"/>
 
                 <LinearLayout
@@ -106,17 +113,19 @@
                     android:layout_height="match_parent">
 
                     <Button
-                        android:text="multiply"
+                        android:text="@string/operation_multiply"
                         android:layout_weight="1"
                         android:layout_width="match_parent"
                         android:theme="@style/OperationButton"
+                        android:background="@drawable/operation_button"
                         android:layout_height="0dp" android:id="@+id/buttonMultiply"/>
 
                     <Button
-                        android:text="Divide"
+                        android:text="@string/operation_divide"
                         android:layout_weight="1"
                         android:layout_width="match_parent"
                         android:theme="@style/OperationButton"
+                        android:background="@drawable/operation_button"
                         android:layout_height="0dp" android:id="@+id/buttonDivide"/>
 
                 </LinearLayout>
@@ -133,6 +142,7 @@
                     android:layout_weight="1"
                     android:layout_width="0dp"
                     android:theme="@style/NumberButton"
+                    android:background="@drawable/number_button"
                     android:layout_height="match_parent" android:id="@+id/button1"/>
 
                 <Button
@@ -142,6 +152,7 @@
                     android:layout_weight="1"
                     android:layout_width="0dp"
                     android:theme="@style/NumberButton"
+                    android:background="@drawable/number_button"
                     android:layout_height="match_parent" android:id="@+id/button2"/>
 
                 <Button
@@ -151,6 +162,7 @@
                     android:layout_weight="1"
                     android:layout_width="0dp"
                     android:theme="@style/NumberButton"
+                    android:background="@drawable/number_button"
                     android:layout_height="match_parent" android:id="@+id/button3"/>
 
                 <LinearLayout
@@ -160,17 +172,19 @@
                     android:layout_height="match_parent">
 
                     <Button
-                        android:text="subtract"
+                        android:text="@string/operation_subtract"
                         android:layout_weight="1"
                         android:layout_width="match_parent"
                         android:theme="@style/OperationButton"
+                        android:background="@drawable/operation_button"
                         android:layout_height="0dp" android:id="@+id/buttonSubtract"/>
 
                     <Button
-                        android:text="Add"
+                        android:text="@string/operation_add"
                         android:layout_weight="1"
                         android:layout_width="match_parent"
                         android:theme="@style/OperationButton"
+                        android:background="@drawable/operation_button"
                         android:layout_height="0dp" android:id="@+id/buttonAdd"/>
 
                 </LinearLayout>
@@ -187,20 +201,23 @@
                     android:layout_weight="2"
                     android:layout_width="0dp"
                     android:theme="@style/NumberButton"
+                    android:background="@drawable/number_button"
                     android:layout_height="match_parent" android:id="@+id/button0"/>
 
                 <Button
-                    android:text="."
+                    android:text="@string/value_point"
                     android:layout_weight="1"
                     android:layout_width="0dp"
                     android:theme="@style/NumberButton"
+                    android:background="@drawable/number_button"
                     android:layout_height="match_parent" android:id="@+id/buttonDot"/>
 
                 <Button
-                    android:text="Equal"
+                    android:text="@string/operation_equal"
                     android:layout_weight="1"
                     android:layout_width="0dp"
                     android:theme="@style/EqualButton"
+                    android:background="@drawable/equal_button"
                     android:layout_height="match_parent" android:id="@+id/buttonEqual"/>
 
             </TableRow>

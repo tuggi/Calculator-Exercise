@@ -9,6 +9,10 @@
     <color name="colorBlack">#000000</color>
 
     <color name="colorDarkGray">#1D1D1D</color>
+    <color name="colorDarkGrayRipple">#5A5A5A</color>
     <color name="colorLightGray">#2A2A2A</color>
+    <color name="colorLightGrayRipple">#646464</color>
     <color name="colorGrayAccent">#484848</color>
+    <color name="colorGrayAccentRipple">#7B7B7B</color>
+
 </resources>
