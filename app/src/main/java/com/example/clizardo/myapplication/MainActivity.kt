@@ -30,7 +30,7 @@ class MainActivity : AppCompatActivity() {
 
     fun clear(view: View){
         calculatorField.setText("0")
-        Toast.makeText(this, view.toString(), Toast.LENGTH_SHORT).show()
+//        Toast.makeText(this, view.toString(), Toast.LENGTH_SHORT).show()
     }
 
     fun getOperation():String ?{
