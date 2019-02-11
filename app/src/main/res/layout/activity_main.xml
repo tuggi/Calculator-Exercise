@@ -180,6 +180,8 @@
                         android:layout_height="0dp" android:id="@+id/buttonSubtract"/>
 
                     <Button
+                        android:onClick="getValueOne"
+                        android:tag="@string/operation_add"
                         android:text="@string/operation_add"
                         android:layout_weight="1"
                         android:layout_width="match_parent"
@@ -205,7 +207,9 @@
                     android:layout_height="match_parent" android:id="@+id/button0"/>
 
                 <Button
+                    android:onClick="displayNumber"
                     android:text="@string/value_point"
+                    android:tag="@string/value_point"
                     android:layout_weight="1"
                     android:layout_width="0dp"
                     android:theme="@style/NumberButton"
@@ -213,6 +217,7 @@
                     android:layout_height="match_parent" android:id="@+id/buttonDot"/>
 
                 <Button
+                    android:onClick="compute"
                     android:text="@string/operation_equal"
                     android:layout_weight="1"
                     android:layout_width="0dp"
